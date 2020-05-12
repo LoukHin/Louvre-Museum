@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Louvre Museum</title>
+    <style>
+        svg {
+            background: #60bef5;
+        }
+
+        .grass-top {
+            fill: #a6ba52;
+        }
+
+        .grass-right {
+            fill: #7a932e;
+        }
+
+        .grass-left {
+            fill: #8eaf3e;
+        }
+
+        .ground-right {
+            fill: #915d2f;
+        }
+
+        .ground-left {
+            fill: #ad733e;
+        }
+
+        .roof-top {
+            fill: #2f8cc6;
+        }
+
+        .roof-left {
+            fill: #2275b2;
+        }
+
+        .roof-right {
+            fill: #174e87;
+        }
+
+        .building-right {
+            fill: #c8c297;
+        }
+
+        .building-left {
+            fill: #e8e3b8;
+        }
+
+        .building-top {
+            fill: #f4efce;
+        }
+
+        .windows-inside {
+            fill: #544a42;
+        }
+
+        #Pyramid {
+            opacity: 0.8;
+        }
+
+        #Center_Decoration polygon {
+            fill: #fefefe;
+        }
+    </style>
+</head>
+
+<body>
+    <svg width="1200" height="800" viewBox="0 0 1200 800">
+        <g id="Ground">
+            <polygon class="grass-top" points="1104 387 551 706 96 443 649 124" />
+            <polygon class="grass-right" points="1104 387 1104 392 551 711 551 706" />
+            <polygon class="grass-left" points="96 443 96 448 551 711 551 706" />
+            <polygon class="ground-right" points="1104 392 1104 422 551 741 551 711" />
+            <polygon class="ground-left" points="96 478 96 448 551 711 551 741" />
+        </g>
+        <g id="Main_building">
+            <polygon class="roof-top" points="976 282 671 106 215 369 224 374 671 116 967 287" />
+            <polygon class="roof-left" points="671 136 958 302 967 287 671 116" />
+            <polygon class="building-left" points="958 374 671 208 671 136 958 302" />
+            <polygon class="building-right" points="967 287 958 302 958 374 985 359 985 287 976 282" />
+            <polygon class="roof-right" points="224 374 671 116 671 136 233 389" />
+            <polygon class="building-right" points="671 136 671 208 233 461 233 389" />
+            <polygon class="building-left" points="233 389 233 461 206 445 206 374 215 369 224 374" />
+            <g class="windows">
+                <!-- กำแพงยาวอันที่ 1 -->
+                <svg x="36" y="-15" class="window-right">
+                    <polygon class="windows-inside" points="242 384 242 397 248 393 248 380" />
+                    <polygon class="building-left" points="251 394 248 393 248 380 251 379" />
+                    <polygon class="building-top" points="251 394 248 393 242 397 242 399" />
+                </svg>
+                <svg x="36" y="5" class="window-right">
+                    <polygon class="windows-inside" points="242 384 242 397 248 393 248 380" />
+                    <polygon class="building-left" points="251 394 248 393 248 380 251 379" />
+                    <polygon class="building-top" points="251 394 248 393 242 397 242 399" />
+                </svg>
+                <svg x="36" y="25" class="window-right">
+                    <polygon class="windows-inside" points="242 384 242 397 248 393 248 380" />
+                    <polygon class="building-left" points="251 394 248 393 248 380 251 379" />
+                    <polygon class="building-top" points="251 394 248 393 242 397 242 399" />
+                </svg>
+
+                <svg x="72" y="-35" class="window-right">
+                    <polygon class="windows-inside" points="242 384 242 397 248 393 248 380" />
+                    <polygon class="building-left" points="251 394 248 393 248 380 251 379" />
+                    <polygon class="building-top" points="251 394 248 393 242 397 242 399" />
+                </svg>
+                <svg x="90" y="-45" class="window-right">
+                    <polygon class="windows-inside" points="242 384 242 397 248 393 248 380" />
+                    <polygon class="building-left" points="251 394 248 393 248 380 251 379" />
+                    <polygon class="building-top" points="251 394 248 393 242 397 242 399" />
+                </svg>
+                <svg x="72" y="-15" class="window-right">
+                    <polygon class="windows-inside" points="242 384 242 397 248 393 248 380" />
+                    <polygon class="building-left" points="251 394 248 393 248 380 251 379" />
+                    <polygon class="building-top" points="251 394 248 393 242 397 242 399" />
+                </svg>
+                <svg x="72" y="5" class="window-right">
+                    <polygon class="windows-inside" points="242 384 242 397 248 393 248 380" />
+                    <polygon class="building-left" points="251 394 248 393 248 380 251 379" />
+                    <polygon class="building-top" points="251 394 248 393 242 397 242 399" />
+                </svg>
+
+                <svg x="124" y="-45" class="window-right">
+                    <polygon class="windows-inside" points="242 384 242 397 248 393 248 380" />
+                    <polygon class="building-left" points="251 394 248 393 248 380 251 379" />
+                    <polygon class="building-top" points="251 394 248 393 242 397 242 399" />
+                </svg>
+                <svg x="142" y="-55" class="window-right">
+                    <polygon class="windows-inside" points="242 384 242 397 248 393 248 380" />
+                    <polygon class="building-left" points="251 394 248 393 248 380 251 379" />
+                    <polygon class="building-top" points="251 394 248 393 242 397 242 399" />
+                </svg>
+                <svg x="124" y="-25" class="window-right">
+                    <polygon class="windows-inside" points="242 384 242 397 248 393 248 380" />
+                    <polygon class="building-left" points="251 394 248 393 248 380 251 379" />
+                    <polygon class="building-top" points="251 394 248 393 242 397 242 399" />
+                </svg>
+
+
+                <!-- กำแพงยาวอันที่ 2 -->
+                <svg x="234" y="-110" class="window-right">
+                    <polygon class="windows-inside" points="242 384 242 397 248 393 248 380" />
+                    <polygon class="building-left" points="251 394 248 393 248 380 251 379" />
+                    <polygon class="building-top" points="251 394 248 393 242 397 242 399" />
+                </svg>
+                <svg x="234" y="-88" class="window-right">
+                    <polygon class="windows-inside" points="242 384 242 397 248 393 248 380" />
+                    <polygon class="building-left" points="251 394 248 393 248 380 251 379" />
+                    <polygon class="building-top" points="251 394 248 393 242 397 242 399" />
+                </svg>
+                <svg x="252" y="-138" class="window-right">
+                    <polygon class="windows-inside" points="242 384 242 397 248 393 248 380" />
+                    <polygon class="building-left" points="251 394 248 393 248 380 251 379" />
+                    <polygon class="building-top" points="251 394 248 393 242 397 242 399" />
+                </svg>
+                <svg x="288" y="-158" class="window-right">
+                    <polygon class="windows-inside" points="242 384 242 397 248 393 248 380" />
+                    <polygon class="building-left" points="251 394 248 393 248 380 251 379" />
+                    <polygon class="building-top" points="251 394 248 393 242 397 242 399" />
+                </svg>
+                <svg x="288" y="-138" class="window-right">
+                    <polygon class="windows-inside" points="242 384 242 397 248 393 248 380" />
+                    <polygon class="building-left" points="251 394 248 393 248 380 251 379" />
+                    <polygon class="building-top" points="251 394 248 393 242 397 242 399" />
+                </svg>
+                <svg x="288" y="-118" class="window-right">
+                    <polygon class="windows-inside" points="242 384 242 397 248 393 248 380" />
+                    <polygon class="building-left" points="251 394 248 393 248 380 251 379" />
+                    <polygon class="building-top" points="251 394 248 393 242 397 242 399" />
+                </svg>
+                <svg x="306" y="-168" class="window-right">
+                    <polygon class="windows-inside" points="242 384 242 397 248 393 248 380" />
+                    <polygon class="building-left" points="251 394 248 393 248 380 251 379" />
+                    <polygon class="building-top" points="251 394 248 393 242 397 242 399" />
+                </svg>
+
+                <!-- กำแพงยาวนิดหน่อยอันที่ถัดมาจากอันที่ 2 -->
+                <svg x="374" y="-208" class="window-right">
+                    <polygon class="windows-inside" points="242 384 242 397 248 393 248 380" />
+                    <polygon class="building-left" points="251 394 248 393 248 380 251 379" />
+                    <polygon class="building-top" points="251 394 248 393 242 397 242 399" />
+                </svg>
+                <svg x="392" y="-197" class="window-right">
+                    <polygon class="windows-inside" points="242 384 242 397 248 393 248 380" />
+                    <polygon class="building-left" points="251 394 248 393 248 380 251 379" />
+                    <polygon class="building-top" points="251 394 248 393 242 397 242 399" />
+                </svg>
+
+                <!-- กำแพงยาวอีกอันที่มันถัดมาจากอันที่ถัดมาจากอันที่ 2 -->
+                <svg class="window-left" x="167" y="-396">
+                    <polygon class="windows-inside" points="520 550 520 563 514 559 514 546" />
+                    <polygon class="building-right" points="512 560 514 559 514 546 512 545" />
+                    <polygon class="building-top" points="512 560 514 559 520 563 520 565" />
+                </svg>
+                <svg class="window-left" x="221" y="-364">
+                    <polygon class="windows-inside" points="520 550 520 563 514 559 514 546" />
+                    <polygon class="building-right" points="512 560 514 559 514 546 512 545" />
+                    <polygon class="building-top" points="512 560 514 559 520 563 520 565" />
+                </svg>
+                <svg class="window-left" x="203" y="-356">
+                    <polygon class="windows-inside" points="520 550 520 563 514 559 514 546" />
+                    <polygon class="building-right" points="512 560 514 559 514 546 512 545" />
+                    <polygon class="building-top" points="512 560 514 559 520 563 520 565" />
+                </svg>
+                <svg class="window-left" x="203" y="-336">
+                    <polygon class="windows-inside" points="520 550 520 563 514 559 514 546" />
+                    <polygon class="building-right" points="512 560 514 559 514 546 512 545" />
+                    <polygon class="building-top" points="512 560 514 559 520 563 520 565" />
+                </svg>
+
+                <!-- กำแพงอันยาวๆอันท้ายสุดแล้วแหละ ที่มันไมไ่ด้หันหลังให้อะ -->
+                <svg class="window-left" x="330" y="-280">
+                    <polygon class="windows-inside" points="520 550 520 563 514 559 514 546" />
+                    <polygon class="building-right" points="512 560 514 559 514 546 512 545" />
+                    <polygon class="building-top" points="512 560 514 559 520 563 520 565" />
+                </svg>
+                <svg class="window-left" x="348" y="-270">
+                    <polygon class="windows-inside" points="520 550 520 563 514 559 514 546" />
+                    <polygon class="building-right" points="512 560 514 559 514 546 512 545" />
+                    <polygon class="building-top" points="512 560 514 559 520 563 520 565" />
+                </svg>
+                <svg class="window-left" x="330" y="-255">
+                    <polygon class="windows-inside" points="520 550 520 563 514 559 514 546" />
+                    <polygon class="building-right" points="512 560 514 559 514 546 512 545" />
+                    <polygon class="building-top" points="512 560 514 559 520 563 520 565" />
+                </svg>
+                <svg class="window-left" x="384" y="-270">
+                    <polygon class="windows-inside" points="520 550 520 563 514 559 514 546" />
+                    <polygon class="building-right" points="512 560 514 559 514 546 512 545" />
+                    <polygon class="building-top" points="512 560 514 559 520 563 520 565" />
+                </svg>
+                <svg class="window-left" x="402" y="-260">
+                    <polygon class="windows-inside" points="520 550 520 563 514 559 514 546" />
+                    <polygon class="building-right" points="512 560 514 559 514 546 512 545" />
+                    <polygon class="building-top" points="512 560 514 559 520 563 520 565" />
+                </svg>
+                <svg class="window-left" x="384" y="-250">
+                    <polygon class="windows-inside" points="520 550 520 563 514 559 514 546" />
+                    <polygon class="building-right" points="512 560 514 559 514 546 512 545" />
+                    <polygon class="building-top" points="512 560 514 559 520 563 520 565" />
+                </svg>
+                <svg class="window-left" x="402" y="-240">
+                    <polygon class="windows-inside" points="520 550 520 563 514 559 514 546" />
+                    <polygon class="building-right" points="512 560 514 559 514 546 512 545" />
+                    <polygon class="building-top" points="512 560 514 559 520 563 520 565" />
+                </svg>
+                <svg class="window-left" x="384" y="-230">
+                    <polygon class="windows-inside" points="520 550 520 563 514 559 514 546" />
+                    <polygon class="building-right" points="512 560 514 559 514 546 512 545" />
+                    <polygon class="building-top" points="512 560 514 559 520 563 520 565" />
+                </svg>
+            </g>
+            <animateTransform attributeName="transform" type="translate" values="0,-120;0,0" dur="2s"
+                keySplines=".5 0 .5 1" calcMode="spline" />
+        </g>
+        <g id="Towers">
+            <g id="Tower">
+                <g id="Tower2">
+                    <polygon class="building-right" points="573 269 573 182 609 162 609 249" />
+                    <polygon class="roof-top" points="556 136 573 126 591 136 573 147" />
+                    <polygon class="roof-left" points="556 136 573 147 573 182 538 162" />
+                    <polygon class="roof-right" points="591 136 573 147 573 182 609 162" />
+                    <polyline class="building-left"
+                        points="569 195 560 180 551 175 538 182 538 162 573 182 573 269 569 267" />
+                </g>
+                <g id="Tower1">
+                    <polygon class="building-right" points="237 463 237 376 273 356 273 443" />
+                    <polygon class="roof-top" points="220 330 237 320 255 330 237 341" />
+                    <polygon class="roof-left" points="220 330 237 341 237 376 202 356" />
+                    <polygon class="roof-right" points="255 330 237 341 237 376 273 356" />
+                    <polygon class="building-left" points="202 356 202 443 237 463 237 376" />
+                    <g>
+                        <svg x="336" y="-193" class="window-right">
+                            <polygon class="windows-inside" points="242 384 242 397 248 393 248 380" />
+                            <polygon class="building-left" points="251 394 248 393 248 380 251 379" />
+                            <polygon class="building-top" points="251 394 248 393 242 397 242 399" />
+                        </svg>
+                        <svg x="336" y="-173" class="window-right">
+                            <polygon class="windows-inside" points="242 384 242 397 248 393 248 380" />
+                            <polygon class="building-left" points="251 394 248 393 248 380 251 379" />
+                            <polygon class="building-top" points="251 394 248 393 242 397 242 399" />
+                        </svg>
+                        <svg x="336" y="-153" class="window-right">
+                            <polygon class="windows-inside" points="242 384 242 397 248 393 248 380" />
+                            <polygon class="building-left" points="251 394 248 393 248 380 251 379" />
+                            <polygon class="building-top" points="251 394 248 393 242 397 242 399" />
+                        </svg>
+                    </g>
+                </g>
+                <g id="Big_Tower">
+                    <polygon class="building-right" points="472 333 419 364 419 267 472 236" />
+                    <polygon class="roof-left" points="401 216 419 226 419 267 374 241" />
+                    <polygon class="roof-right" points="445 210 419 226 419 267 472 236" />
+                    <polygon class="roof-top" points="445 210 419 226 401 216 428 200" />
+                    <polyline class="building-left"
+                        points="401 272 410 287 410 359 419 364 419 267 374 241 374 277 392 267" />
+                    <!-- ต่างบนตู -->
+                    <g>
+                        <svg x="182" y="-112" class="window-right">
+                            <polygon class="windows-inside" points="242 384 242 397 248 393 248 380" />
+                            <polygon class="building-left" points="251 394 248 393 248 380 251 379" />
+                            <polygon class="building-top" points="251 394 248 393 242 397 242 399" />
+                        </svg>
+                        <svg x="182" y="-72" class="window-right">
+                            <polygon class="windows-inside" points="242 384 242 397 248 393 248 380" />
+                            <polygon class="building-left" points="251 394 248 393 248 380 251 379" />
+                            <polygon class="building-top" points="251 394 248 393 242 397 242 399" />
+                        </svg>
+                        <svg x="200" y="-82" class="window-right">
+                            <polygon class="windows-inside" points="242 384 242 397 248 393 248 380" />
+                            <polygon class="building-left" points="251 394 248 393 248 380 251 379" />
+                            <polygon class="building-top" points="251 394 248 393 242 397 242 399" />
+                        </svg>
+                    </g>
+                </g>
+                <g id="Big_Tower-2">
+                    <polygon class="building-left" points="772 277 826 307 826 210 772 180" />
+                    <polygon class="roof-right" points="843 159 826 170 826 210 870 185" />
+                    <polygon class="roof-left" points="799 154 826 170 826 210 772 180" />
+                    <polygon class="roof-top" points="799 154 826 170 843 159 817 144" />
+                    <polyline class="building-right"
+                        points="843 216 834 231 834 302 826 307 826 210 870 185 870 221 852 210" />
+                    <g>
+                        <svg class="window-left" x="266" y="-352">
+                            <polygon class="windows-inside" points="520 550 520 563 514 559 514 546" />
+                            <polygon class="building-right" points="512 560 514 559 514 546 512 545" />
+                            <polygon class="building-top" points="512 560 514 559 520 563 520 565" />
+                        </svg>
+                        <svg class="window-left" x="284" y="-324">
+                            <polygon class="windows-inside" points="520 550 520 563 514 559 514 546" />
+                            <polygon class="building-right" points="512 560 514 559 514 546 512 545" />
+                            <polygon class="building-top" points="512 560 514 559 520 563 520 565" />
+                        </svg>
+                    </g>
+                </g>
+            </g>
+            <g id="Corner">
+                <polygon class="building-top" points="671 126 644 111 671 96 697 111" />
+                <polygon class="building-right"
+                    points="697 111 697 121 693 119 684 124 675 139 675 210 671 213 671 126" />
+                <polyline class="building-left"
+                    points="666 210 671 213 671 126 644 111 644 121 649 119 657 124 666 139" />
+            </g>
+            <g class="windows">
+                <svg x="0" y="0" class="window-right">
+                    <polygon class="windows-inside" points="242 384 242 397 248 393 248 380" />
+                    <polygon class="building-left" points="251 394 248 393 248 380 251 379" />
+                    <polygon class="building-top" points="251 394 248 393 242 397 242 399" />
+                </svg>
+                <svg x="18" y="10" class="window-right">
+                    <polygon class="windows-inside" points="242 384 242 397 248 393 248 380" />
+                    <polygon class="building-left" points="251 394 248 393 248 380 251 379" />
+                    <polygon class="building-top" points="251 394 248 393 242 397 242 399" />
+                </svg>
+
+                <svg x="0" y="0" class="window-left">
+                    <polygon class="windows-inside" points="215 374 215 387 209 383 209 370 215 374" />
+                    <polygon class="building-right" points="206 384 209 383 209 370 206 369 206 384" />
+                    <polygon class="building-top" points="206 384 209 383 215 387 215 389 206 384" />
+                </svg>
+                <svg x="0" y="20" class="window-left">
+                    <polygon class="windows-inside" points="215 374 215 387 209 383 209 370 215 374" />
+                    <polygon class="building-right" points="206 384 209 383 209 370 206 369 206 384" />
+                    <polygon class="building-top" points="206 384 209 383 215 387 215 389 206 384" />
+                </svg>
+                <svg x="17" y="30" class="window-left">
+                    <polygon class="windows-inside" points="215 374 215 387 209 383 209 370 215 374" />
+                    <polygon class="building-right" points="206 384 209 383 209 370 206 369 206 384" />
+                    <polygon class="building-top" points="206 384 209 383 215 387 215 389 206 384" />
+                </svg>
+
+                <svg class="door-right">
+                    <polygon class="windows-inside" points="436 328 436 351 452 342 452 319 436 328" />
+                    <polygon class="building-left" points="454 343 452 342 452 319 454 318 454 343" />
+                    <polygon class="building-top" points="454 343 452 342 436 351 436 353 454 343" />
+                </svg>
+                <svg class="door-left">
+                    <polygon class="windows-inside" points="808 272 808 295 792 286 792 263 808 272" />
+                    <polygon class="building-right" points="790 287 792 286 792 263 790 261 790 287" />
+                    <polygon class="building-top" points="790 287 792 286 808 295 808 297 790 287" />
+                </svg>
+            </g>
+            <animateTransform attributeName="transform" type="translate" values="0,-240;0,0" dur="2s"
+                keySplines=".5 0 .5 1" calcMode="spline" />
+        </g>
+
+        <svg x="525" y="10" width="400" viewBox="0 0 1200 800">
+            <g fill="#222" stroke="white" stroke-width="2" transform="skewY(30)">
+                <polygon points="192.5,250 192.5,265 197.5,265 197.5,250 202.5,250 202.5,265 207.5,265 207.5,250" />
+                <polygon points="200,210  185,250 215,250 " />
+                <polygon points="183 205 183 220 193 205" />
+                <polygon points="208 205 218 220 218 205" />
+                <polygon points="180 230 200 220 190 230" />
+                <polygon points="206.5 225 209 232 230 240" />
+                <circle cx="200" cy="212" r="11" />
+                <animate attributeName="opacity" values="0;0;0;1" dur="4s" />
+                <animateMotion dur="1.5s" repeatCount="indefinite" path="M0,0 -100,50 0,100 100,50 z" />
+            </g>
+        </svg>
+
+        <g id="Center">
+            <g id="Center_Decoration">
+                <g id="Inner">
+                    <polygon id="Top_right""
+                        points=" 684 415 600 366 684 366" />
+                    <polygon id="Bottom_right""
+                        points=" 684 420 600 468 684 468" />
+                    <polygon id="Top_left""
+                        points=" 507 415 591 366 507 366" />
+                    <animate attributeName="opacity" values="0;0;0;1" dur="4s" />
+                </g>
+                <g id="Outer">
+                    <polygon id="Bottom" class="pyramid-decoration" points="591 522 675 473 591 473" />
+                    <polygon id="Left" class="pyramid-decoration" points="498 371 414 420 498 420" />
+                    <polygon id="Top" class="pyramid-decoration" points="521 358 670 358 596 315" />
+                    <polygon id="Right" class="pyramid-decoration" points="772 417 693 463 693 371" />
+                    <animate attributeName="opacity" values="0;0;0;0;1" dur="4.5s" />
+                </g>
+            </g>
+            <g id="Pyramid">
+                <polygon class="roof-left" points="512 417 596 466 596 348" />
+                <polygon class="roof-right" points="680 417 596 466 596 348" />
+                <animateTransform attributeName="transform" type="translate" values="0,-360;0,0" dur="3s"
+                    keySplines=".5 0 .5 1" calcMode="spline" />
+            </g>
+        </g>
+
+        <svg x="700" y="-20" width="400" viewBox="0 0 1200 800">
+            <g fill="#222" stroke="white" stroke-width="2" transform="">
+                <polygon points="190,250 190,270 197.5,270 197.5,250 202.5,250 202.5,270 210,270 210,250" />
+                <polygon points="200,210 185,215 185,250 215,250 215,215" />
+                <polygon points="185 215 170 215 170 223 185 223" />
+                <polygon points="215 215 230 215 230 223 215 223" />
+                <circle cx="200" cy="200" r="13" />
+                <animateMotion dur=".3s" repeatCount="indefinite" path="M0,0 v20 v-20 z" />
+            </g>
+        </svg>
+        <svg x="705" y="-100" width="400" viewBox="0 0 1200 800">
+            <g>
+                <g fill="#222" stroke="white" stroke-width="2" transform="skewY(-30),skewX(30)">
+                    <polygon points="190,250 190,270 197.5,270 197.5,250 202.5,250 202.5,270 210,270 210,250" />
+                    <polygon points="200,210 185,215 185,250 215,250 215,215" />
+                    <polygon points="185 215 170 215 170 223 185 223" />
+                    <polygon points="215 215 230 215 230 223 215 223" />
+                    <circle cx="200" cy="200" r="13" />
+                </g>
+                <animateTransform attributeName="transform" type="translate" values="0,-1024;-0,0" dur="5s"
+                    keySplines="1 0 .95 0" calcMode="spline" />
+            </g>
+        </svg>
+        <g id="Left_wing">
+            <polyline class="roof-top" points="967 287 976 292 529 550 520 545" />
+            <polygon class="roof-right" points="529 550 976 292 976 313 538 565" />
+            <polygon class="building-right" points="976 313 976 384 538 637 538 565" />
+            <polygon class="building-left" points="538 565 538 637 512 621 512 550 520 545 529 550" />
+            <animateTransform attributeName="transform" type="translate" values="0,-120;0,0" dur="1.25s"
+                keySplines=".5 0 .5 1" calcMode="spline" />
+        </g>
+        <g id="Left_wing_tower">
+            <g id="Tower2-2">
+                <polygon class="building-right" points="879 445 879 359 914 338 914 425" />
+                <polygon class="roof-top" points="861 313 879 302 896 313 879 323" />
+                <polygon class="roof-left" points="861 313 879 323 879 359 843 338" />
+                <polygon class="roof-right" points="896 313 879 323 879 359 914 338" />
+                <polyline class="building-left"
+                    points="874 371 865 356 856 351 843 359 843 338 879 359 879 445 874 443" />
+            </g>
+            <g id="Tower1-2">
+                <polygon class="building-right" points="543 639 543 553 578 532 578 619" />
+                <polygon class="roof-top" points="525 507 543 496 560 507 543 517" />
+                <polygon class="roof-left" points="525 507 543 517 543 553 507 532" />
+                <polygon class="roof-right" points="560 507 543 517 543 553 578 532" />
+                <polygon class="building-left" points="507 532 507 619 543 639 543 553" />
+            </g>
+            <g id="Big_Tower-3">
+                <polygon class="building-right" points="777 509 724 540 724 443 777 412" />
+                <polygon class="roof-left" points="706 392 724 402 724 443 680 417" />
+                <polygon class="roof-right" points="750 387 724 402 724 443 777 412" />
+                <polygon class="roof-top" points="750 387 724 402 706 392 733 376" />
+                <polyline class="building-left"
+                    points="706 448 715 463 715 535 724 540 724 443 680 417 680 453 697 443" />
+            </g>
+            <g id="Corner-2">
+                <polygon class="building-top" points="976 302 949 287 976 272 1002 287" />
+                <polygon class="building-right" points="1002 287 1002 374 976 389 976 302" />
+                <polyline class="building-left"
+                    points="971 387 976 389 976 302 949 287 949 297 954 295 963 300 971 315" />
+            </g>
+
+            <g class="windows">
+                <svg class="window-left" x="15" y="8">
+                    <polygon class="windows-inside" points="520 550 520 563 514 559 514 546" />
+                    <polygon class="building-right" points="512 560 514 559 514 546 512 545" />
+                    <polygon class="building-top" points="512 560 514 559 520 563 520 565" />
+                </svg>
+                <svg class="window-left" x="0" y="20">
+                    <polygon class="windows-inside" points="520 550 520 563 514 559 514 546" />
+                    <polygon class="building-right" points="512 560 514 559 514 546 512 545" />
+                    <polygon class="building-top" points="512 560 514 559 520 563 520 565" />
+                </svg>
+                <svg class="window-left" x="0" y="40">
+                    <polygon class="windows-inside" points="520 550 520 563 514 559 514 546" />
+                    <polygon class="building-right" points="512 560 514 559 514 546 512 545" />
+                    <polygon class="building-top" points="512 560 514 559 520 563 520 565" />
+                </svg>
+                <svg class="window-left" x="15" y="28">
+                    <polygon class="windows-inside" points="520 550 520 563 514 559 514 546" />
+                    <polygon class="building-right" points="512 560 514 559 514 546 512 545" />
+                    <polygon class="building-top" points="512 560 514 559 520 563 520 565" />
+                </svg>
+            </g>
+            <animateTransform attributeName="transform" type="translate" values="0,-240;0,0" dur="1.5s"
+                keySplines=".5 0 .5 1" calcMode="spline" />
+        </g>
+        <svg x="200" y="170" width="400" viewBox="0 0 1200 800">
+            <g fill="#222" stroke="white" stroke-width="2" transform="skewY(-30)">
+                <polygon points="190,250 190,270 197.5,270 197.5,250 202.5,250 202.5,270 210,270 210,250" />
+                <polygon points="200,210 185,215 185,250 215,250 215,215" />
+                <polygon points="185 215 170 215 170 223 185 223" />
+                <polygon points="215 215 230 215 230 223 215 223" />
+                <circle cx="200" cy="200" r="13" />
+                <animateMotion dur=".5s" repeatCount="indefinite" path="M0,0 v20 v-20 z" />
+            </g>
+        </svg>
+        <svg x="230" y="170" width="400" viewBox="0 0 1200 800">
+            <g fill="#222" stroke="white" stroke-width="2" transform="skewY(-30)">
+                <polygon points="190,250 190,270 197.5,270 197.5,250 202.5,250 202.5,270 210,270 210,250" />
+                <polygon points="200,210 185,215 185,250 215,250 215,215" />
+                <polygon points="185 215 170 215 170 223 185 223" />
+                <polygon points="215 215 230 215 230 223 215 223" />
+                <circle cx="200" cy="200" r="13" />
+                <animateMotion dur=".7s" repeatCount="indefinite" path="M0,0 v20 v-20 z" />
+            </g>
+        </svg>
+        <svg x="260" y="170" width="400" viewBox="0 0 1200 800">
+            <g fill="#222" stroke="white" stroke-width="2" transform="skewY(-30)">
+                <polygon points="192.5,250 192.5,265 197.5,265 197.5,250 202.5,250 202.5,265 207.5,265 207.5,250" />
+                <polygon points="200,210  185,250 215,250 " />
+                <polygon points="183 205 183 220 193 205" />
+                <polygon points="208 205 218 220 218 205" />
+                <polygon points="180 230 200 220 190 230" />
+                <polygon points="206.5 225 209 232 230 240" />
+                <circle cx="200" cy="212" r="11" />
+                <animateMotion dur=".1s" repeatCount="indefinite" path="M0,0 v20 v-20 z" />
+            </g>
+        </svg>
+    </svg>
+</body>
+
+</html>
